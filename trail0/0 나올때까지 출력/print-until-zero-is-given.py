@@ -1,7 +1,4 @@
-num=1
-li=[]
 while 1:
     num=int(input())
-    if num!=0: li.append(num)
+    if num!=0: print(num)
     else:break
-for i in li:print(i)
